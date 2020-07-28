@@ -36,7 +36,7 @@ import org.springframework.util.ObjectUtils;
  * @see #setParentName
  * @see RootBeanDefinition
  * @see ChildBeanDefinition
- * 定义bean 个人暂时理解为所有bean的包装
+ * 定义bean 个人暂时理解为所有bean的包装 spring容器中存的是这个对象
  */
 @SuppressWarnings("serial")
 public class GenericBeanDefinition extends AbstractBeanDefinition {
